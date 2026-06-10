@@ -25,3 +25,7 @@ A simple flash card application built with React, TypeScript, and Tailwind CSS t
 ## 📖 How It Works
 
 The application stores a collection of JavaScript questions and answers in an array. Users can navigate through the cards, reveal answers when needed, and track their learning progress using the progress bar.
+
+## 🌐 Project URL
+
+https://roadmap.sh/projects/flash-cards
