@@ -1,63 +1,64 @@
 export const questions = [
   {
     id: 1,
-    question: 'Apa perbedaan let, const, dan var di JavaScript?',
+    question:
+      'What is the difference between let, const, and var in JavaScript?',
     answer:
-      'var memiliki function scope dan dapat dideklarasikan ulang. let memiliki block scope dan nilainya dapat diubah. const memiliki block scope tetapi nilainya tidak dapat diassign ulang.',
+      'var has function scope and can be redeclared. let has block scope and its value can be reassigned. const also has block scope but its value cannot be reassigned.',
   },
   {
     id: 2,
-    question: 'Apa itu hoisting di JavaScript?',
+    question: 'What is hoisting in JavaScript?',
     answer:
-      'Hoisting adalah perilaku JavaScript yang memindahkan deklarasi variabel dan fungsi ke bagian atas scope sebelum kode dieksekusi.',
+      'Hoisting is JavaScript behavior where variable and function declarations are moved to the top of their scope before code execution.',
   },
   {
     id: 3,
-    question: 'Apa perbedaan antara == dan ===?',
+    question: 'What is the difference between == and ===?',
     answer:
-      '== membandingkan nilai setelah melakukan type coercion, sedangkan === membandingkan nilai dan tipe data tanpa konversi.',
+      '== compares values after type coercion, while === compares both value and type without any conversion.',
   },
   {
     id: 4,
-    question: 'Apa itu closure?',
+    question: 'What is a closure?',
     answer:
-      'Closure adalah fungsi yang dapat mengakses variabel dari scope luar meskipun fungsi luar tersebut sudah selesai dieksekusi.',
+      'A closure is a function that can access variables from its outer scope even after the outer function has finished executing.',
   },
   {
     id: 5,
-    question: 'Apa fungsi method map() pada array?',
+    question: 'What does the map() method do?',
     answer:
-      'map() digunakan untuk membuat array baru dengan hasil transformasi setiap elemen dari array asli.',
+      'The map() method creates a new array by applying a function to each element of the original array.',
   },
   {
     id: 6,
-    question: 'Apa perbedaan antara null dan undefined?',
+    question: 'What is the difference between null and undefined?',
     answer:
-      'undefined berarti variabel belum memiliki nilai, sedangkan null adalah nilai yang sengaja diberikan untuk menunjukkan tidak ada nilai.',
+      'undefined means a variable has not been assigned a value, while null is an intentional assignment representing no value.',
   },
   {
     id: 7,
-    question: 'Apa itu Promise dalam JavaScript?',
+    question: 'What is a Promise in JavaScript?',
     answer:
-      'Promise adalah objek yang merepresentasikan hasil dari operasi asynchronous yang bisa berstatus pending, fulfilled, atau rejected.',
+      'A Promise is an object that represents the eventual result of an asynchronous operation. It can be pending, fulfilled, or rejected.',
   },
   {
     id: 8,
-    question: 'Apa kegunaan async dan await?',
+    question: 'What are async and await used for?',
     answer:
-      'async dan await digunakan untuk menangani operasi asynchronous dengan sintaks yang lebih mudah dibaca dibandingkan chaining Promise.',
+      'async and await are used to handle asynchronous operations with syntax that is easier to read and write than Promise chaining.',
   },
   {
     id: 9,
     question:
-      'Apa perbedaan antara function declaration dan function expression?',
+      'What is the difference between a function declaration and a function expression?',
     answer:
-      'Function declaration di-hoist sepenuhnya sehingga dapat dipanggil sebelum dideklarasikan, sedangkan function expression tidak.',
+      'Function declarations are fully hoisted and can be called before they are defined, while function expressions are not.',
   },
   {
     id: 10,
-    question: 'Apa itu DOM dalam JavaScript?',
+    question: 'What is the DOM in JavaScript?',
     answer:
-      'DOM (Document Object Model) adalah representasi struktur halaman HTML yang memungkinkan JavaScript mengakses dan memanipulasi elemen pada halaman web.',
+      'The DOM (Document Object Model) is a representation of an HTML document that allows JavaScript to access and manipulate web page elements.',
   },
 ];

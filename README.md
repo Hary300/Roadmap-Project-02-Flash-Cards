@@ -2,6 +2,10 @@
 
 A simple flash card application built with React, TypeScript, and Tailwind CSS to help users learn JavaScript concepts through interactive question-and-answer cards.
 
+## 🎥 Demo
+
+![flash card demo](./src/assets/flash-card-demo.gif)
+
 ## 🚀 Features
 
 - Browse JavaScript questions one by one
